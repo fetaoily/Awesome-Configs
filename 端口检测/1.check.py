@@ -24,6 +24,6 @@ def check_tcp_port(kw, timeout=3):
 
 
 for i in range(0, 100000000):
-    result_msg = check_tcp_port({"host": "123.125.210.228", "port": "80"})
+    result_msg = check_tcp_port({"host": "www.baidu.com", "port": "80"})
     print(str(i), str(result_msg))
     pass
